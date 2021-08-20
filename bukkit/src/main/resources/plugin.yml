@@ -1,0 +1,13 @@
+main: xyz.handshot.tconomy.TConomyBukkit
+name: TConomy
+version: 0.0.0
+api-version: 1.16
+commands:
+  balance:
+    description: View your balance
+  pay:
+    description: Send money to another player
+  tconomy:
+    description: TConomy admin commands
+depend:
+  - Vault
