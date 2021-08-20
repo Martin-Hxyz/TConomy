@@ -56,9 +56,4 @@ abstract class KotlinxBackend constructor(private val serializer: SerialFormat) 
 			else -> return
 		}
 	}
-
-	override fun count(): Int
-	{
-		TODO("Not yet implemented")
-	}
 }

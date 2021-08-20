@@ -11,6 +11,11 @@ class JsonBackend(private val root: File) : KotlinxBackend(Json)
 {
 	override fun file(id: UUID): File
 	{
-		return File(root, "accounts/$id.json")
+		return File(root, "$id.json")
+	}
+
+	override fun count(): Int
+	{
+		return root.listFiles()?.count { file -> file.isFile && file.extension == "json" } ?: 0
 	}
 }

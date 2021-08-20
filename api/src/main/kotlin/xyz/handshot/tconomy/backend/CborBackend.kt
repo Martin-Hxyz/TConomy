@@ -11,6 +11,11 @@ class CborBackend(private val root: File): KotlinxBackend(Cbor)
 {
 	override fun file(id: UUID): File
 	{
-		return File(root, "accounts/$id.cbor")
+		return File(root, "$id.cbor")
+	}
+
+	override fun count(): Int
+	{
+		return root.listFiles()?.count { file -> file.isFile && file.extension == "cbor" } ?: 0
 	}
 }
