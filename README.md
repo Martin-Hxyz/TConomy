@@ -1,11 +1,11 @@
 <div align="center">
   <h1>TConomy</h1>
   <h3>Transaction Based Economy</h3>
-  <img src="https://img.shields.io/github/license/Martin-Hxyz/TConomy"/>
-  <img src="https://img.shields.io/github/v/release/Martin-Hxyz/TConomy?include_prereleases">
-  <img src="https://img.shields.io/github/issues/Martin-Hxyz/TConomy"/>
-  <img src="https://img.shields.io/github/forks/Martin-Hxyz/TConomy"/>
-  <img src="https://img.shields.io/github/stars/Martin-Hxyz/TConomy"/>
+  <a href="https://github.com/Martin-Hxyz/TConomy/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Martin-Hxyz/TConomy"></a>
+  <a href="https://github.com/Martin-Hxyz/TConomy/releases"><img src="https://img.shields.io/github/v/release/Martin-Hxyz/TConomy?include_prereleases"></a>
+  <a href="https://github.com/Martin-Hxyz/TConomy/issues"><img src="https://img.shields.io/github/issues/Martin-Hxyz/TConomy"></a>
+  <a href="https://github.com/Martin-Hxyz/TConomy/network/members"><img src="https://img.shields.io/github/forks/Martin-Hxyz/TConomy"></a>
+  <a href="https://github.com/Martin-Hxyz/TConomy/stargazers"><img src="https://img.shields.io/github/stars/Martin-Hxyz/TConomy"></a>
 </div>
 
 <hr/>
