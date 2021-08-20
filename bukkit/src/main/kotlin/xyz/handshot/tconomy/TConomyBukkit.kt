@@ -6,6 +6,7 @@ import org.bukkit.plugin.ServicePriority
 import org.bukkit.plugin.java.JavaPlugin
 import xyz.handshot.tconomy.backend.CachedBackend
 import xyz.handshot.tconomy.commands.*
+import java.io.File
 
 class TConomyBukkit : JavaPlugin()
 {
@@ -45,7 +46,7 @@ class TConomyBukkit : JavaPlugin()
 		return Config(
 			backend = config.getString("backend") ?: "json",
 			transactionHistory = config.getInt("transaction-history"),
-			accountsDir = dataFolder
+			accountsDir = File(dataFolder, "accounts/")
 		)
 	}
 }
