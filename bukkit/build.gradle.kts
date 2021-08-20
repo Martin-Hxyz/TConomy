@@ -28,7 +28,7 @@ dependencies {
 
 tasks.withType<Jar> {
 	configurations["compileClasspath"].forEach { file: File ->
-		if (file.name.startsWith("slimjar") || file.name.startsWith("api"))
+		if (file.name.startsWith("slimjar") || file.name.startsWith("tconomy-api"))
 		{
 			from(zipTree(file.absoluteFile))
 		}
