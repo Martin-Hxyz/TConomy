@@ -21,6 +21,6 @@ Accepted values for `backend` are `json` and `cbor`
 Cbor files are smaller but not human readable  
 
 Accepted value for `transaction-history` is any positive integer  
-This value controls how many transactions are stored
+This value controls how many transactions are stored per player
 
 <hr/>
